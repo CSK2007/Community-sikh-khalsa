@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -325,6 +325,34 @@ background-color: white;
     
   </div>
 </div>
+
+
+  <center>
+            <font color="red">*
+            <label for="studentID"><b>ENTER A/C CODE:</b></font></label> 
+            <input type="text" id="studentID" class="pass" required> 
+        </center>
+        <br>
+
+        <center>
+            <font color="red">*</font>  
+            <label for="password"><font color="red"><b>ENTER PASSWORD:</b></font></label>
+            <input type="password" id="password" class="pass" required>
+        </center><br><br>
+
+        <center>
+            <input type="button" value="Search Data" class="sub" onclick="searchStudent()" onclick="showSpinner()">
+            
+            <input type="button" value="Save Changes" id="saveButton" class="sub" style="display:none;" onclick="saveEditedStudent()">
+            
+            
+      <input type="button" value="Reset Password" class="sub" onclick="resetPassword()">      
+            
+    </center>        
+            
+
+
+
 
 <div class="container">
     
